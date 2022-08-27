@@ -3,6 +3,7 @@ declare(strict_types=1);
 // test
 use Phinx\Migration\AbstractMigration;
 // test
+// test
 
 final class CreateStoreSystemSettings extends AbstractMigration
 {
