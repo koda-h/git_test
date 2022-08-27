@@ -20,7 +20,7 @@ final class CreateStoreSystemSettings extends AbstractMigration
     {
         $table = $this->table('store_system_settings');
         $table->addColumn('store_id', 'integer', [
-            'null' => false,
+            'null' => true,
             'signed' => false,
             'comment' => '加盟店ID',
         ])->addColumn('use_price_change_by_age', 'smallinteger', [

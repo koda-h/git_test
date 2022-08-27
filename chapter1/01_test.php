@@ -18,7 +18,7 @@ final class CreateStoreSystemSettings extends AbstractMigration
      */
     public function change(): void
     {
-        $table = $this->table('store_system_settings');
+        $table = $this->table('stores');
         $table->addColumn('store_id', 'integer', [
             'null' => false,
             'signed' => false,
